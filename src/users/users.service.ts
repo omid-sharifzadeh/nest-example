@@ -9,7 +9,7 @@ export class UsersService {
   constructor(
     @InjectRepository(User) private usersRepository: Repository<User>,
     private entityManager: EntityManager
-  ) { }
+  ) {}
 
   async create(createUserDto: CreateUserDto) {
     const user = new User(createUserDto);
