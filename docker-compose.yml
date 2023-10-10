@@ -12,7 +12,8 @@ services:
     depends_on:
       - db
     volumes:
-      - .:/app
+      - ./:/app/
+      - /app/node_modules
 
   db:
     image: postgres
