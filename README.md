@@ -1,10 +1,10 @@
 ## requirements
-1 - Docker
+1 - Docker compose
 
-## step 1 - .env
+## 1 - env file
 create .env file , there is an example file for that
 
-## step 2 - build
+## 2 - build
 ```bash
 $ docker compose up
 ```
